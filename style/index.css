@@ -155,7 +155,7 @@ margin: 0 auto;
 }
 .subject{
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 18px;
 }
 .year{
     color: #757575;
@@ -189,12 +189,12 @@ hr{
 }
 .contact input[type="text"],input[type="email"] ,textarea{
     margin-bottom: 24px;
-    border: none;
     width: 100%;
     padding: 18px 30px;
-}
-input{
-    height: 60px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #FD6E0A;
+
 }
 .description{
     margin-bottom: 30px;
@@ -202,4 +202,5 @@ input{
 .contact a{
     text-decoration: none;
     margin-right: 20px;
+    
 }
