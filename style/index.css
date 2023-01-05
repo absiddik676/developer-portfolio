@@ -25,7 +25,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .color-parymary{
     color: #FD6E0A;
@@ -186,4 +186,20 @@ hr{
 }
 .contactcontact .section-title{
     text-align: left;
+}
+.contact input[type="text"],input[type="email"] ,textarea{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 60px;
+}
+.description{
+    margin-bottom: 30px;
+}
+.contact a{
+    text-decoration: none;
+    margin-right: 20px;
 }
